@@ -1,0 +1,6 @@
+services:
+  wp_cli:
+    image: joltdesign/wp-cli
+    build:
+      context: build
+

@@ -1,0 +1,23 @@
+{
+  "name": "jolt-wp-cli",
+  "version": "1.0.0",
+  "repository": "git@bitbucket.org:joltdesignltd/jolt-wp-cli.git",
+  "author": "Jolt Design <studio@joltdesign.co.uk>",
+  "license": "None",
+  "private": true,
+  "jira-prepare-commit-msg": {
+    "messagePattern": "$J $M"
+  },
+  "scripts": {
+    "build": "sh bin/build.sh",
+    "deploy": "npm-run-all -s build tag push",
+    "postinstall": "husky install",
+    "push": "sh bin/push.sh",
+    "tag": "sh bin/tag.sh"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "jira-prepare-commit-msg": "^1.7.2",
+    "npm-run-all": "^4.1.5"
+  }
+}
