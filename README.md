@@ -16,6 +16,18 @@ services:
   # ...
 ```
 
+If you need to include a file before running the CLI, set the `AUTO_PREPEND_FILE` environment variable to its path. *e.g.*:
+
+```yml
+services:
+  # ...
+  wp_cli:
+    image: joltdesign/wp-cli:8.0
+    environment:
+      AUTO_PREPEND_FILE: /var/www/html/wp-config-extra.php
+  # ...
+```
+
 ## Building
 
 Run `yarn install` the first time you clone the repo.
