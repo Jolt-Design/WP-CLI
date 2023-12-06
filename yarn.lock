@@ -33,6 +33,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@joltdesignltd/wp-cli@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@joltdesignltd/wp-cli@workspace:."
+  dependencies:
+    husky: "npm:^8.0.3"
+    jira-prepare-commit-msg: "npm:^1.7.2"
+    npm-run-all: "npm:^4.1.5"
+  languageName: unknown
+  linkType: soft
+
 "ansi-styles@npm:^3.2.1":
   version: 3.2.1
   resolution: "ansi-styles@npm:3.2.1"
@@ -618,16 +628,6 @@ __metadata:
   checksum: ca2a35cdd659201e07d76b2723f8d69d7d0875819e104e973a5d1da2e466bf54c064385074efe438971cd2e2ac4fc68f6893f6772f3a3b4580c78523a944fcff
   languageName: node
   linkType: hard
-
-"jolt-wp-cli@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "jolt-wp-cli@workspace:."
-  dependencies:
-    husky: "npm:^8.0.3"
-    jira-prepare-commit-msg: "npm:^1.7.2"
-    npm-run-all: "npm:^4.1.5"
-  languageName: unknown
-  linkType: soft
 
 "js-tokens@npm:^4.0.0":
   version: 4.0.0
