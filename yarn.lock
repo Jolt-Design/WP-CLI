@@ -33,9 +33,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@joltdesignltd/wp-cli@workspace:.":
+"@joltdesign/wp-cli@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@joltdesignltd/wp-cli@workspace:."
+  resolution: "@joltdesign/wp-cli@workspace:."
   dependencies:
     husky: "npm:^8.0.3"
     jira-prepare-commit-msg: "npm:^1.7.2"
