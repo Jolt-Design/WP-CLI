@@ -3,4 +3,3 @@ services:
     image: joltdesign/wp-cli
     build:
       context: build
-
