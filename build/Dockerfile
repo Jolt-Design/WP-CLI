@@ -9,5 +9,5 @@ COPY --chown=root:root ./docker-entrypoint.sh /usr/local/bin/docker-entrypoint.s
 RUN chmod a+x /usr/local/bin/docker-entrypoint.sh
 RUN chmod a+wx /usr/local/etc/php/conf.d/
 
-ENV HOME /tmp
+ENV HOME=/tmp
 USER 33:33
