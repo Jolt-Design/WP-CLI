@@ -9,11 +9,9 @@
     "messagePattern": "$J $M"
   },
   "scripts": {
-    "build": "sh bin/build.sh",
-    "deploy": "run-s build tag push",
+    "build": "docker buildx bake",
     "postinstall": "husky",
-    "push": "sh bin/push.sh",
-    "tag": "sh bin/tag.sh"
+    "push": "yarn build --push"
   },
   "devDependencies": {
     "husky": "^9.1.6",
