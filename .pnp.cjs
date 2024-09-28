@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["husky", "npm:9.1.4"],\
+          ["husky", "npm:9.1.6"],\
           ["jira-prepare-commit-msg", "npm:1.7.2"],\
           ["npm-run-all", "npm:4.1.5"]\
         ],\
@@ -40,7 +40,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@babel/code-frame", "npm:7.24.7"],\
           ["@babel/highlight", "npm:7.24.7"],\
-          ["picocolors", "npm:1.0.1"]\
+          ["picocolors", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -62,7 +62,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/helper-validator-identifier", "npm:7.24.7"],\
           ["chalk", "npm:2.4.2"],\
           ["js-tokens", "npm:4.0.0"],\
-          ["picocolors", "npm:1.0.1"]\
+          ["picocolors", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -72,7 +72,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@joltdesign/wp-cli", "workspace:."],\
-          ["husky", "npm:9.1.4"],\
+          ["husky", "npm:9.1.6"],\
           ["jira-prepare-commit-msg", "npm:1.7.2"],\
           ["npm-run-all", "npm:4.1.5"]\
         ],\
@@ -619,10 +619,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["husky", [\
-      ["npm:9.1.4", {\
-        "packageLocation": "../../../.yarn/berry/cache/husky-npm-9.1.4-45a26bd693-10c0.zip/node_modules/husky/",\
+      ["npm:9.1.6", {\
+        "packageLocation": "../../../.yarn/berry/cache/husky-npm-9.1.6-f05821288d-10c0.zip/node_modules/husky/",\
         "packageDependencies": [\
-          ["husky", "npm:9.1.4"]\
+          ["husky", "npm:9.1.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -701,10 +701,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["is-core-module", [\
-      ["npm:2.15.0", {\
-        "packageLocation": "../../../.yarn/berry/cache/is-core-module-npm-2.15.0-c262aaf790-10c0.zip/node_modules/is-core-module/",\
+      ["npm:2.15.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/is-core-module-npm-2.15.1-34c73a6cbd-10c0.zip/node_modules/is-core-module/",\
         "packageDependencies": [\
-          ["is-core-module", "npm:2.15.0"],\
+          ["is-core-module", "npm:2.15.1"],\
           ["hasown", "npm:2.0.2"]\
         ],\
         "linkType": "HARD"\
@@ -1055,10 +1055,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["picocolors", [\
-      ["npm:1.0.1", {\
-        "packageLocation": "../../../.yarn/berry/cache/picocolors-npm-1.0.1-39442f3da8-10c0.zip/node_modules/picocolors/",\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/picocolors-npm-1.1.0-ea12a640bd-10c0.zip/node_modules/picocolors/",\
         "packageDependencies": [\
-          ["picocolors", "npm:1.0.1"]\
+          ["picocolors", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1120,7 +1120,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/resolve-patch-4254c24959-10c0.zip/node_modules/resolve/",\
         "packageDependencies": [\
           ["resolve", "patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"],\
-          ["is-core-module", "npm:2.15.0"],\
+          ["is-core-module", "npm:2.15.1"],\
           ["path-parse", "npm:1.0.7"],\
           ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
         ],\
@@ -1245,7 +1245,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["spdx-correct", "npm:3.2.0"],\
           ["spdx-expression-parse", "npm:3.0.1"],\
-          ["spdx-license-ids", "npm:3.0.18"]\
+          ["spdx-license-ids", "npm:3.0.20"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1265,16 +1265,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["spdx-expression-parse", "npm:3.0.1"],\
           ["spdx-exceptions", "npm:2.5.0"],\
-          ["spdx-license-ids", "npm:3.0.18"]\
+          ["spdx-license-ids", "npm:3.0.20"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["spdx-license-ids", [\
-      ["npm:3.0.18", {\
-        "packageLocation": "../../../.yarn/berry/cache/spdx-license-ids-npm-3.0.18-08d695a78d-10c0.zip/node_modules/spdx-license-ids/",\
+      ["npm:3.0.20", {\
+        "packageLocation": "../../../.yarn/berry/cache/spdx-license-ids-npm-3.0.20-f08e1eabc0-10c0.zip/node_modules/spdx-license-ids/",\
         "packageDependencies": [\
-          ["spdx-license-ids", "npm:3.0.18"]\
+          ["spdx-license-ids", "npm:3.0.20"]\
         ],\
         "linkType": "HARD"\
       }]\

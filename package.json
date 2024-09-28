@@ -16,7 +16,7 @@
     "tag": "sh bin/tag.sh"
   },
   "devDependencies": {
-    "husky": "^9.1.4",
+    "husky": "^9.1.6",
     "jira-prepare-commit-msg": "^1.7.2",
     "npm-run-all": "^4.1.5"
   },
