@@ -1,7 +1,7 @@
 {
   "name": "@joltdesign/wp-cli",
   "version": "1.0.0",
-  "repository": "git@bitbucket.org:joltdesignltd/jolt-wp-cli.git",
+  "repository": "git@github.com:Jolt-Design/WP-CLI.git",
   "author": "Jolt Design <studio@joltdesign.co.uk>",
   "license": "None",
   "private": true,
