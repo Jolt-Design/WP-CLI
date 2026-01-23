@@ -1,4 +1,4 @@
-ARG PHP_VERSION 8.4
+ARG PHP_VERSION 8.5
 
 FROM wordpress:cli-php${PHP_VERSION}
 
